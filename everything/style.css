@@ -50,6 +50,22 @@ p {
   text-align: center;
 }
 
+.ground-text{
+  position: fixed;
+  height:0;
+  top: 95vh;
+}
+
+.ground-text a{
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:20px;
+  font-weight: bold;
+
+  color: #8f8f8f;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .waves {
   position:relative;
   width: 100%;
@@ -162,7 +178,6 @@ body{
   z-index: 1;
   transform: translateY(100px);
 }
-
 .container .card:hover .face.face1{
   transform: translateY(0);
   box-shadow:
