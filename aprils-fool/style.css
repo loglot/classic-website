@@ -6,7 +6,7 @@
   top:0px;
   height: 100vh;
   width:  100vw;
-  background : #4b4b4b; 
+  background : #ffffff; 
 }
 
 body {
@@ -26,13 +26,13 @@ p {
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
   font-size:14px;
-  color: #333333;
+  color: #bebebe;
 }
 
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(0deg, rgba(5,5,10,1) 0%, rgba(65,65,65,1) 100%);
+  background: linear-gradient(0deg, rgb(122, 122, 122) 0%, rgb(255, 255, 255) 100%);
   color:rgb(55,55,55);
 }
 
@@ -136,8 +136,6 @@ p {
 
 body{
   display:flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
   margin-right: 0px;
   margin-left: 0px;
   padding:0;
@@ -175,7 +173,7 @@ body{
 
 .container .card .face.face1{
   position: relative;
-  background: linear-gradient(0deg, #333 0%, #2c2c2c 100%);
+  background: linear-gradient(0deg, #8b8b8b 0%, #bebebe 100%);
   display: flex;
   justify-content: center;
   align-content:center;
@@ -212,14 +210,14 @@ body{
 
 .container .card .face.face1 .content i{
   font-size: 3em;
-  color: white;
+  color: rgb(0, 0, 0);
   display: inline-block;
    
 }
 
 .container .card .face.face1 .content h3{
   font-size: 1em;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   
 }
@@ -230,7 +228,7 @@ body{
 
 .container .card .face.face2{
    position: relative;
-   background: linear-gradient(0deg, rgba(50,50,50,0) 0%, 	rgba(51, 51, 51, 0) 75%);;
+   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, 	rgba(255, 255, 255, 0) 75%);;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -251,22 +249,22 @@ body{
   font-size: 10pt;
   margin: 0 ;
   padding: 0;
-  color:#ccc;
+  color:#000000;
 }
 
 .container .card .face.face2 .content a{
   text-decoration:none;
-  color: #ccc;
+  color: #000000;
   box-sizing: border-box;
-  outline : 1px dashed #ccc;
+  outline : 1px dashed #000000;
   padding: 10px;
   margin: 15px 0 0;
   display: inline-block;
 }
 
 .container .card .face.face2 .content a:hover{
-  color: rgb(255, 255, 255); 
-  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  color: rgb(0, 0, 0); 
+  box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 .scroll {
 
